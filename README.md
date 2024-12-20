@@ -44,3 +44,10 @@ req := &schema.StatusReq{GenerateUuid: "GenerateUuid"}
 resp, err := api.Status(req)
 // resp.Data.GenerateStatus
 ```
+
+## 开源协议
+- MIT
+
+## 相关参考
+- https://liblibai.feishu.cn/wiki/UAMVw67NcifQHukf8fpccgS5n6d
+- https://www.liblib.art/

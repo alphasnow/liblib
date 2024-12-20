@@ -3,6 +3,7 @@ package main
 import (
 	"fmt"
 	"github.com/alphasnow/liblib"
+	"github.com/alphasnow/liblib/consts"
 	"log"
 )
 
@@ -26,7 +27,7 @@ func main() {
         ]
     }
 }`)
-	resp, err := api.Generate(liblib.Text2Img, req)
+	resp, err := api.Generate(consts.Text2Img, req)
 	fmt.Println(resp, err)
 	if err != nil {
 		log.Fatal("发生错误:", err)
